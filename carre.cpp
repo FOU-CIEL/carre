@@ -42,3 +42,8 @@ int CCarre::GetCote()
 {
 	return cote;
 }
+
+void CCarre::Deplacer(char direction, int saut)
+{
+	
+}
