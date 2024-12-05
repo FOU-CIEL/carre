@@ -24,6 +24,7 @@
     <ProjectGuid>{504fdd8b-52c8-4fa9-ab0c-c7b4683009fa}</ProjectGuid>
     <RootNamespace>mcarre</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>carre</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="carre.cpp" />
     <ClCompile Include="mcarre.cpp" />
   </ItemGroup>
   <ItemGroup>
