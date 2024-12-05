@@ -45,5 +45,20 @@ int CCarre::GetCote()
 
 void CCarre::Deplacer(char direction, int saut)
 {
+	switch (direction)
+	{
+	case 'n'://nord
+		sy = saut;
+		break;
+	case 's'://sud
+		sy = saut;
+		break;
+	case 'o'://ouest
+		sx = saut;
+		break;
+	case 'e'://est
+		sx = saut;
+		break;
 	
+	};
 }
