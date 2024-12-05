@@ -16,5 +16,9 @@ public:
 
 	void Afficher();
 
+	int Getsx();
 
+	int Getsy();
+
+	int GetCote();
 };
