@@ -30,5 +30,6 @@ public:
 	// Sortie : Aucune 
 
 	void Deplacer(char direction, int saut);
+	void Deplacer(unsigned int dx, unsigned int dy);
 };
 

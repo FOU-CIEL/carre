@@ -48,17 +48,23 @@ void CCarre::Deplacer(char direction, int saut)
 	switch (direction)
 	{
 	case 'n'://nord
-		sy = saut;
+		sy += saut;
 		break;
 	case 's'://sud
-		sy = saut;
+		sy -= saut;
 		break;
 	case 'o'://ouest
-		sx = saut;
+		sx -= saut;
 		break;
 	case 'e'://est
-		sx = saut;
+		sx += saut;
 		break;
 	
 	};
 }
+void CCarre::Deplacer(unsigned int dx, unsigned int dy)
+{
+	sx += dx;
+	sy += dy;
+}
+
